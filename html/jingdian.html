@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>安陆景点图片介绍</title>
+		<style>
+			body {
+				background-color: silver;
+				text-align: center;
+			}
+			/*图片轮播区域样式设置*/
+			
+			.ppt-container {
+				width: 800px;
+				height: 400px;
+				padding: 0px;
+				margin: auto;
+			}
+			/*图片样式设置*/
+			
+			.ppt-container img {
+				float: left;
+				height: 100%;
+				width: 70%;
+				vertical-align: middle;
+			}
+			/*列表元素样式设置*/
+			
+			ul {
+				list-style: none;
+				float: left;
+				height: 100%;
+				width: 20%;
+				background-color: rgba(255, 255, 255, 0.8);
+				margin: 0;
+				padding: 0;
+			}
+			/*列表选项元素样式设置*/
+			
+			li {
+				margin-top: 25%;
+				margin-left: 10px;
+				padding-left: 10px;
+				font-family: "微软雅黑 Light";
+				text-align: left;
+			}
+			
+			li:hover {
+				color: red;
+			}
+			/*水平线样式设置*/
+			
+			hr {
+				width: 80%;
+			}
+		</style>
+		<script src="../js/jquery-1.12.4.js"></script>
+	</head>
+
+	<body>
+		<!--标题-->
+		<h3>安陆景点图片介绍</h3>
+		<!--水平线-->
+		<hr>
+		<!--图片轮播区域-->
+		<a href="../index.html" target="blank"><div class="a">回到主页</div></a>
+		<div class="ppt-container">
+			<ul>
+				<li onmouseover="showImage(1)">安陆白兆山</li>
+				<hr>
+				<li onmouseover="showImage(2)">安陆古银杏森林公园</li>
+				<hr>
+				<li onmouseover="showImage(3)">盛世闻樱</li>
+				<hr>
+				<li onmouseover="showImage(4)">安陆府河森林公园</li>
+				<hr>
+				<li onmouseover="showImage(5)">安陆太平寨</li>
+				<hr>
+			</ul>
+			<img id="pptImage" src="../images/3.jpg" />
+		</div>
+		<script>
+			function showImage(name) {
+				$("#pptImage").attr("src", "../images/" + name + ".jpg");
+			}
+		</script>
+	</body>
+
+</html>

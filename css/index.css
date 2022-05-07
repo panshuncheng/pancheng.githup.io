@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 800px;
+    background-image: url(../images/beijing.jpg);
+    background-size: 100%;
+}
+.nav {
+    width: 700px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    left: 45% ;
+}
+.taiyang {
+    width: 102px;
+    height: 150px;
+    background-image: url(../images/taiyang.png);
+    background-position: -50px 0;
+    background-size: 172%;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    color: rgb(255, 240, 108);
+    font-size: 30px;
+    line-height: 150px;
+    padding-left: 48px;
+    font-family: "华文彩云";
+    border-radius: 50%;
+}
+.taiyang:hover {
+    color: rgb(255,255,255);
+}
+.baiyun1 {
+    width: 138px;
+    height: 110px;
+    background-image: url(../images/baiyun1.png);
+    background-size: 100%;
+    padding-left: 55px;
+    position: absolute;
+    top: 68px;
+    left: 343px;
+    right: 511px;
+    line-height: 150px;
+    font-family: "华文彩云";
+    font-size: 20px;
+    border-radius: 30%;
+}
+.baiyun2 {
+    width: 138px;
+    height: 100px;
+    background-image: url(../images/baiyun2.png);
+    background-size: 100%;
+    padding-left: 59px;
+    position: absolute;
+    top: 0px;
+    left: 196px;
+    line-height: 133px;
+    font-family: "华文彩云";
+    font-size: 20px;
+    border-radius: 30%;
+}
+.baiyun1:hover {
+    color: rgb(255, 240, 108);
+}
+.baiyun2:hover {
+    color: rgb(255, 240, 108);
+}
+.hudie {
+    position: relative;
+    top: 34%;
+    left: 72%;
+    font-size: 25px;
+    line-height: 77px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-weight: 900;
+    color: goldenrod;
+}
+.jianjie {
+    width: 138px;
+    height: 100px;
+    background-image: url(../images/baiyun3.png);
+    background-size: 100%;
+    padding-left: 62px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 462px;
+    line-height: 140px;
+    font-family: "华文彩云";
+    font-size: 20px;
+    border-radius: 30%;
+}
+.jianjie:hover {
+    color: rgb(255, 240, 108);
+}

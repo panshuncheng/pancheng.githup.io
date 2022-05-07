@@ -1,0 +1,76 @@
+body{
+    background-image: url(images/timg\ \(1\).gif);
+    background-size: 100%;
+    background-repeat: repeat-y;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 525px;
+}
+table{
+    margin: 0px auto;
+}
+.kong{
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(172, 172, 240);
+    font-size: 20px;
+    background-color: white;
+    margin-right: auto;
+}
+.a{
+   background-color: rgb(147, 240, 240,0.5); 
+   border-radius: 15px;
+   color: white;
+   width: 100px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+
+}
+.fanhuikuan{
+    float: right;
+    background-color: rgba(212, 212, 211,0.8);
+    height: 400px;   
+    width: 300px;
+    margin: 30px 0 ; 
+}
+.fanhuikuan1{
+    font-size: 30px;
+    height: 50px;   
+    width: 300px;
+    border-bottom: 2px dashed rgb(134, 133, 133);
+    line-height: 50px;
+    text-align: center;
+    
+}
+.fanhuikuan2{
+    height: 250px;   
+    width: 300px;
+    border-bottom: 2px dashed rgb(134, 133, 133);
+    font-size: 25px;
+    color: lightcoral;
+    text-align: center;
+    line-height: 240px;
+    
+}
+
+
+.fanhuikuan3{
+    height: 100px;   
+    width: 300px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+a:hover{
+    color: rgb(240, 218, 171);
+    font-size: 30px;
+
+}
